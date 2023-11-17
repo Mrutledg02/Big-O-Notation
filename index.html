@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big-O Notation</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <h2>Simplifying Expressions</h2>
+        <ol>
+            <li>O(n + 10) => O(n) // Drop the constant term.</li> 
+            <li>O(100 * n) => O(n) // Drop the constant factor.</li> 
+            <li>O(25) => O(1) // Constant time complexity.</li> 
+            <li>O(n^2 + n^3) => O(n^3) // Dominant term.</li> 
+            <li>O(n + n + n + n) => O(n) // Combine like terms.</li> 
+            <li>O(1000 * log(n) + n) => O(n) // Dominant term.</li>
+            <li>O(1000 * n * log(n) + n) => O(n * log(n)) // Dominant term.</li>
+            <li>O(2^n + n^2) => O(2^n) // Dominant term.</li>
+            <li>O(5 + 3 + 1) => O(1) // Constant time complexity.</li>
+            <li>O(n + n^(1/2) + n^2 + n * log(n)^10) => O(n^2) // Dominant term.</li>
+        </ol>
+    </h2>
+    <h2>Short Answer</h2>
+
+<ol>
+  <li>True or false: ( n^2 + n ) is ( O(n^2) ). // True.</li>
+  <li>True or false: ( n^2 * n ) is ( O(n^3) ). // True.</li>
+  <li>True or false: ( n^2 + n ) is ( O(n) ). // False.</li>
+  <li>What’s the time complexity of the <code>.indexOf</code> array method?<br>Answer: ( O(n) )</li>
+  <li>What’s the time complexity of the <code>.includes</code> array method?<br>Answer: ( O(n) )</li>
+  <li>What’s the time complexity of the <code>.forEach</code> array method?<br>Answer: ( O(n) )</li>
+  <li>What’s the time complexity of the <code>.sort</code> array method?<br>Answer: ( O(n log n))</li>
+  <li>What’s the time complexity of the <code>.unshift</code> array method?<br>Answer: ( O(n) )</li>
+  <li>What’s the time complexity of the <code>.push</code> array method?<br>Answer: ( O(1) )</li>
+  <li>What’s the time complexity of the <code>.splice</code> array method?<br>Answer: ( O(n) )</li>
+  <li>What’s the time complexity of the <code>.pop</code> array method?<br>Answer: ( O(1) )</li>
+  <li>What’s the time complexity of the <code>Object.keys()</code> function?<br>Answer: ( O(n) )</li>
+</ol>
+
+<h3>Bonus</h3>
+
+<p>What’s the space complexity of the <code>Object.keys()</code> function?<br>Answer: ( O(n) )</p>
+
+<script src="app.js"></script>
+</body>
+</html>

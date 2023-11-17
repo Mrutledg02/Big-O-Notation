@@ -1,0 +1,47 @@
+body {
+    font-family: 'Airal', sans-serif;
+    margin: 20px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #008080;
+  }
+
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+code {
+    background-color: #f0f0f0;
+    padding: 2px 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Bonus Question */
+h3 + p {
+    color: #006400;
+  }
+
+  /* Additional Styling for Links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
